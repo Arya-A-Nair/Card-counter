@@ -24,7 +24,7 @@ var decision="Hold";
 if(count>0){
   decision="Bet";
 }
-return count+' '+decision;
+document.getElementById('result').innerHTML=count+' '+decision;
 
  
 }
