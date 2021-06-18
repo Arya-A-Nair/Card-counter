@@ -1,13 +1,22 @@
+<!DOCTYPE html>
 <html>
-  <header>
-    <style src="styles.css"></styles>
-    <h1>Disclamer this may considered unhealthy behaviour in some casinos and you may be kicked out<h1>
-  </header>
+  <head>
+    
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <h1 class="page-header">CARD COUNTER<h1>
+  </head>
       
   <body>
-    <script type="text/javascript" src="script.js"></script>
-    <h1 id="Disclaimer">Disclaimer this may considered unhealthy behaviour in some casinos and you may be kicked out<h1>
-    <input type='number' id='card'>type the card value <input>
-    <button onclick="cc(document.getElementById('card').value)">Click to get estimate</button>  
-      <p id='result'></p>
+    <script type="text/javascript" src="script.js">
+        </script>
+    <p id="Disclaimer">Disclaimer this may be considered unhealthy behaviour in some casinos and you may be kicked out</p>        
+    
+    <input type='text' id="btn1" placeholder='card value'>
+    
+    <button onclick="cc()">Click to get estimate</button>  
+    <div id="r-container">
+        <p id='result'></p>
+    </div>
+      
    </body>
+</html>
