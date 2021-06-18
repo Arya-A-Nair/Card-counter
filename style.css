@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&family=Stint+Ultra+Condensed&display=swap');
+
+*{
+    background-color: aqua;
+}
+.page-header{
+    background-color:rgb(103, 159, 233);
+    text-align: center;
+}
+#Disclaimer{
+    font-family: 'Stint Ultra Condensed', cursive ;
+    font-size: 40px;
+
+}
+
+
+#r-container{
+    background-color: aquamarine;
+    color:purple;
+    font-family: 'Staatliches', cursive;
+    text-align : center;
+    font-size: 100px;
+    
+}
